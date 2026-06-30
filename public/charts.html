@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechStore | Análise de Dados</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/charts.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">Tech<span>Store</span></a>
+      <nav class="header-nav">
+        <a href="index.html">Produtos</a>
+        <a href="charts.html" class="active">Análise</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero--charts">
+      <h1>📊 Análise de Dados</h1>
+      <p>Visualize estatísticas e métricas dos produtos da TechStore por categoria.</p>
+    </section>
+
+    <div id="loading-state" class="charts-loading">
+      <div class="spinner"></div>
+      <p>Carregando dados...</p>
+    </div>
+
+    <div id="charts-content" class="charts-content hidden">
+
+      <div class="stats-row" id="stats-row"></div>
+
+      <div class="chart-card">
+        <div class="chart-card__header">
+          <h2 class="chart-card__title">🍕 Distribuição de Produtos por Categoria</h2>
+          <p class="chart-card__desc">Quantidade de produtos em cada categoria do catálogo.</p>
+        </div>
+        <div class="chart-wrapper chart-wrapper--sm">
+          <canvas id="chartPizza"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-card__header">
+          <h2 class="chart-card__title">💰 Preço Médio por Categoria</h2>
+          <p class="chart-card__desc">Valor médio dos produtos agrupados por categoria (em R$).</p>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartPreco"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-card__header">
+          <h2 class="chart-card__title">⭐ Avaliação Média por Categoria</h2>
+          <p class="chart-card__desc">Nota média dos produtos de cada categoria (escala 0–5).</p>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartRating"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-card__header">
+          <h2 class="chart-card__title">📦 Estoque por Produto</h2>
+          <p class="chart-card__desc">Quantidade disponível em estoque para cada produto.</p>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartEstoque"></canvas>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="assets/scripts/charts.js"></script>
+</body>
+</html>

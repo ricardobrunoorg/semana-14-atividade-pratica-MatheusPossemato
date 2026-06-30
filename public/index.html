@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechStore | Home</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <link rel="stylesheet" href="assets/css/charts.css" />
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">Tech<span>Store</span></a>
+      <nav class="header-nav">
+        <a href="index.html" class="active">Produtos</a>
+        <a href="charts.html">Análise</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Os melhores produtos de tecnologia</h1>
+      <p>Encontre notebooks, smartphones, periféricos e muito mais com os melhores preços.</p>
+    </section>
+
+    <div class="toolbar" id="filters">
+      <button class="filter-btn active" data-category="Todos">Todos</button>
+    </div>
+
+    <div class="cards-grid" id="cards-grid">
+      <p class="loading">Carregando produtos...</p>
+    </div>
+  </main>
+
+  <script src="assets/scripts/home.js"></script>
+</body>
+</html>
