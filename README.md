@@ -19,6 +19,6 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+<<  COLOQUE A IMAGEM TELA 1 AQUI >> ![alt text]({67B3966D-658E-4F88-AF15-742043DC0A0E}.png)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+<<  COLOQUE A IMAGEM TELA 2 AQUI >> ![alt text]({EABA3DE4-0649-4F40-8591-F4D5A58A7A37}.png)
