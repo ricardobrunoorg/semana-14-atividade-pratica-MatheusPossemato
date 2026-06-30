@@ -10,10 +10,10 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:  Matheus Possemato Lopes
+- Matricula:  923502
+- Proposta de projeto escolhida:  Catálogo de Produtos de Tecnologia (TechStore)
+- Breve descrição sobre seu projeto:  Aplicação web de catálogo de produtos de tecnologia consumidos via API REST com JSON Server. A página inicial exibe produtos em cards com imagem, nome, categoria, preço e avaliação. Ao clicar, o usuário acessa detalhes completos do produto. Na Semana 14, foi adicionada uma página de análise de dados (charts.html) com gráficos interativos usando Chart.js, exibindo distribuição por categoria, preço médio, avaliação média e estoque por produto.
 
 **Print da tela com a implementação**
 
